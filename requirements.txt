@@ -1,5 +1,3 @@
-sphinx
-pandas
-matplotlib
-quantecon
 jupyter-book
+matplotlib
+numpy
