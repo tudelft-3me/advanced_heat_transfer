@@ -3,7 +3,7 @@
 
 title: My sample book
 author: The Jupyter Book Community
-logo: logo.png
+# logo: "https://pydata.org/wp-content/uploads/2019/06/pydata-logo-final.png"
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -33,7 +33,11 @@ html:
 
 sphinx:
     config:
-        html_theme: sphinx_rtd_theme
-        html_theme_options:
-          header_organisation_url: https://luuk.org
-          header_organisation: luuk
+        html_theme: pydata_sphinx_theme
+        # html_theme_options:
+
+        html_static_path: '_static'
+
+        html_css_files: 'css/custom.css'
+        html_logo: "_static/logo.svg"
+
