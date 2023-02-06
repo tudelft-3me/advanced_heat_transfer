@@ -16,13 +16,12 @@ extensions = ['sphinx_togglebutton', 'sphinx_copybutton', 'myst_nb', 'jupyter_bo
 external_toc_exclude_missing = False
 external_toc_path = '_toc.yml'
 html_baseurl = ''
-html_css_files = ['css/custom.css', 'css/custom.css', 'css/custom.css']
 html_favicon = ''
-html_logo = '_static/logo.png'
+html_logo = ''
 html_sourcelink_suffix = ''
-html_static_path = ['_static', '_static']
+html_static_path = ['_static']
 html_theme = 'pydata_sphinx_theme'
-html_theme_options = {'search_bar_text': 'Search this book...', 'launch_buttons': {'notebook_interface': 'classic', 'binderhub_url': 'https://mybinder.org', 'jupyterhub_url': '', 'thebe': False, 'colab_url': ''}, 'path_to_docs': 'docs', 'repository_url': 'https://github.com/executablebooks/jupyter-book', 'repository_branch': 'master', 'google_analytics_id': '', 'extra_navbar': 'Powered by <a href="https://jupyterbook.org">Jupyter Book</a>', 'extra_footer': '', 'home_page_in_toc': True, 'announcement': '', 'use_repository_button': True, 'use_edit_page_button': False, 'use_issues_button': True}
+html_theme_options = {'html_logo': '_static/logo.png'}
 html_title = 'My sample book'
 jupyter_cache = ''
 jupyter_execute_notebooks = 'force'
