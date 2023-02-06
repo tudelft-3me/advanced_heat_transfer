@@ -33,11 +33,11 @@ html:
 
 sphinx:
     config:
-        html_theme: pydata_sphinx_theme
+        html_theme: quantecon_book_theme
         # html_theme_options:
 
-        html_static_path: '_static'
+        # html_static_path: ['_static']
 
-        html_css_files: 'css/custom.css'
-        html_logo: "_static/logo.svg"
+        # html_css_files: ['css/custom.css']
+        html_logo: "_static/logo.png"
 
